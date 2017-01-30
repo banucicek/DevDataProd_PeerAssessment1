@@ -1,10 +1,11 @@
 ---
-title: R Markdown and Leaflet Assignment of Developing Data Products of John Hopkins University's Coursera Data Science Specialization
-author: "Banuçiçek Gürcüoglu"
-output: html_document
+title: R Markdown and Leaflet Assignment of Developing Data Products of John Hopkins
+  University's Coursera Data Science Specialization
+author: "banucicek"
+output: pdf_document
 job: Developing Data Products of John Hopkins University's Coursera Data Science Specialization
 ---
-
+2016-01-29
 
 ```{r leaflet, eval=TRUE,message=FALSE,warning=FALSE}
 
