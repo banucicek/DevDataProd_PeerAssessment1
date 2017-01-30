@@ -1,0 +1,15 @@
+---
+title: R Markdown and Leaflet Assignment of Developing Data Products of John Hopkins University's Coursera Data Science Specialization
+author: "Banuçiçek Gürcüoglu"
+output: html_document
+job: Developing Data Products of John Hopkins University's Coursera Data Science Specialization
+---
+
+
+```{r leaflet, eval=TRUE,message=FALSE,warning=FALSE}
+
+require("leaflet")
+mymap <- leaflet() %>% addTiles() %>% addMarkers(lat=41.08139, lng=29.014018, popup = "Yapi Kredi")
+mymap
+
+```
